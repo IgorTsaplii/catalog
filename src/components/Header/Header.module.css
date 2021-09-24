@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background: rgb(255 30 60);
+}
+
+.header h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.header button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  min-width: 40px;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.logOut_block {
+  text-align: center;
+}
+
+.header button:hover {
+  background: #ffffff99;
+  color: black;
+}

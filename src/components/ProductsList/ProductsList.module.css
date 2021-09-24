@@ -1,0 +1,40 @@
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 10;
+  flex-direction: column;
+}
+
+.add_button {
+  position: absolute;
+  top: -40px;
+  right: 50%;
+  border: 2px solid #797676;
+  color: #797676;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 6px 10px;
+  font-weight: 600;
+  border-top: none;
+  font-size: 18px;
+  transform: translateX(50%);
+}
+
+.add_button:hover {
+  background-color: #ccc7c7;
+  color: #565656;
+}
+
+@media (min-width: 576px) {
+  .product_list {
+    flex-direction: row;
+  }
+
+  .add_button {
+    right: 40px;
+    transform: none;
+  }
+}
