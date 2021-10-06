@@ -45,7 +45,7 @@
 }
 
 .product_img {
-  width: 400px;
+  width: 250px;
   display: block;
   margin: 0 auto;
 }
@@ -86,4 +86,10 @@
 .exit_button:hover {
   background-color: #ccc7c7;
   color: #565656;
+}
+
+@media (min-width: 576px) {
+  .product_img {
+    width: 400px;
+  }
 }
